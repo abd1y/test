@@ -21,4 +21,4 @@ def get_images(req):
             "title":img.title,
             "image": img.image.url if img.image else None
         })
-        return Response({"data":data})
+    return Response({"data":data})
